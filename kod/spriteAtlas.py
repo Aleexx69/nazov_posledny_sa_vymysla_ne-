@@ -2,7 +2,7 @@ import sys
 import cv2
 ## import img
 try:
-    img=cv2.imread("img/sprite.png",cv2.IMREAD_ANYCOLOR)
+    img=cv2.imread("../img/sprite.png",cv2.IMREAD_ANYCOLOR)
 except IOError:
     print("nigger")
 
