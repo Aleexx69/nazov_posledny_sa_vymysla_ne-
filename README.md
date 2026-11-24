@@ -12,3 +12,4 @@ git add .             - vš. sa uloží or sum
 git commit -m "nazov_commitu"         - pripraví poslanie commitu
 git push              - ofiko pridanie na github 
 git pull              - zoberiem si "cudziu" zmenu ku sebe 
+    
