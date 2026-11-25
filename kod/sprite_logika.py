@@ -15,7 +15,9 @@ def get_sprite(col, row):
     #Vystrihne jeden 32x32 sprite zo sprite atlasu 
     x = col * sprite_w
     y = row * sprite_h
-    return sheet.copy(from_coords=(x, y, x + sprite_w, y + sprite_h))
+    sprite = tk.PhotoImage(width=sprite_w, height=sprite_h)
+    root.tk.call(sprite, "copy", sheet, "-from", x, y, x + sprite_w, y + sprite_h)
+    return sprite
 
 
 def rotate_90(sprite):
